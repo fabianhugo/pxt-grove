@@ -506,8 +506,8 @@ namespace grove {
         
         RangeInInches = duration * 153 / 113 / 2 / 100;
         
-        if(RangeInInches > 0) distanceBackup = RangeInInches;
-        else RangeInInches = distanceBackup;
+        // if(RangeInInches > 0) distanceBackup = RangeInInches;
+        // else RangeInInches = distanceBackup;
         
         basic.pause(50);
         
